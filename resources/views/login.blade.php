@@ -30,10 +30,9 @@
 
 									<p><input type="password" class="form-control" name="password" placeholder="Senha"></p>
 									<label>Esqueceu sua senha?  </label><a href='/register'>Recuperar Senha</a>
+
+									<input type="submit" class="btn btn-primary" id="btn-login" value="Acessar">
 								</div><br>
-
-								<input type="submit" class="btn btn-primary" id="btn-login" value="Acessar">
-
 							</form>
 						  </div>
 					</div>
