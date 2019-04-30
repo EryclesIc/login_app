@@ -1,0 +1,44 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: white;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+    width: 350px;
+    height: 350px;
+}
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+  #link-sair{
+    margin-right: 15px;
+    float: right;
+  }
+  #btn-login {
+    margin-left: 75%;
+  }
+
+  #btn-finalizar {
+    margin-left: 55%;
+  }
+  body{
+    background:white;
+  }
+  /* #bg-primary {
+    background: url("/images/bg-ppaonline.png") no-repeat center center fixed;
+    background-size: 100% 100%;
+    background: white;
+  } */
